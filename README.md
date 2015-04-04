@@ -4,6 +4,8 @@
 
 ![earth](http://i.imgur.com/uz2WYlL.png)
 
+[(glslbin demo)](http://glslb.in/s/a92ee62b)
+
 Quickly get a spinning Earth-like planet on a black background in GLSL. This is not distance field rendering, just a 2D effect.
 
 ```glsl
