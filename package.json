@@ -1,0 +1,36 @@
+{
+  "name": "glsl-earth",
+  "version": "1.0.0",
+  "description": "quick 3D earth for GLSL",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "glsl-noise": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "glsl",
+    "earth",
+    "quick",
+    "test",
+    "testing",
+    "3D",
+    "noise"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/glsl-earth.git"
+  },
+  "homepage": "https://github.com/mattdesl/glsl-earth",
+  "bugs": {
+    "url": "https://github.com/mattdesl/glsl-earth/issues"
+  }
+}
