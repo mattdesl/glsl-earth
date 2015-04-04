@@ -13,7 +13,7 @@ float clouds( vec2 coord ) {
 }
 
 vec3 planet(vec2 uv, vec2 resolution, float size, vec2 rotation) {
-  float __PI__ = 3.14;
+  float PI = 3.14;
   float aspect = resolution.x / resolution.y;
   vec2 norm = 2.0 * uv - 1.0;
   norm.x *= aspect;
@@ -22,7 +22,7 @@ vec3 planet(vec2 uv, vec2 resolution, float size, vec2 rotation) {
   float phi = atan(norm.y, norm.x);
   
   //spherize
-  r = 2.0 * asin(r) / __PI__;
+  r = 2.0 * asin(r) / PI;
   
   vec2 coord = vec2(r * cos(phi), r * sin(phi));
   coord = coord/2.0 + 0.5;
