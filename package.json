@@ -1,6 +1,6 @@
 {
   "name": "glsl-earth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quick 3D earth for GLSL",
   "main": "index.js",
   "license": "MIT",
